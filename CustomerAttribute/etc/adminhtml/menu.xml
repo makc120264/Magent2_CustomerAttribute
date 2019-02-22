@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Customer attribute admin menu.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Medbuy_CustomerAttribute::customer_attributes" title="Customer" module="Medbuy_CustomerAttribute" sortOrder="70" parent="Magento_Backend::stores_attributes" action="customerattribute/attribute" resource="Medbuy_CustomerAttribute::customer_attributes"/>
+    </menu>
+</config>
